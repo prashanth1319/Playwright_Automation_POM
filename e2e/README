@@ -1,0 +1,31 @@
+# END-END Testing
+
+## Overview
+
+This directory contains e2e testing scripts for our application.
+
+## Test run by tags
+
+1. npx playwright test --grep @smoke
+
+## Run Single Test case
+
+1. npx playwright test tests/example.spec.ts -g "Test case name"
+
+## Run test case Based on View port
+
+## Run only Admin (Web Only):
+
+1. npx playwright test --project="Admin - Web"
+
+## Run only Business & Patron on Web:
+
+2. npx playwright test --project="Business & Patron - Web"
+
+## Run only Business & Patron on Mobile:
+
+3. npx playwright test --project="Business & Patron - Mobile"
+
+## Run all tests:
+
+4. npx playwright test
